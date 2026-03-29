@@ -15,7 +15,7 @@ if uploaded_file is not None:
     filename = uploaded_file.name.lower()
     
     st.divider()
-    st.subheader("Analysis Result:")
+    st.subheader("Prediction Result:")
 
     if "plastic" in filename:
         st.success("Detected Category: *PLASTIC*")
